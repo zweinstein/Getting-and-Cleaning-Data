@@ -30,7 +30,9 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-__This analysis has merged the original test and training datasets into one dataset, and performed data cleaning to generate a tidy dataset, "Average.txt", that only contains the average of the mean and standard deviation of each movement feature for each subject and activity.__ I wrote the R script "run_analysis.R" to perform this analysis. The details of this analysis are described in ReadMe.md as well as the comments in the run_analysis.R. 
+### Variations from the Original Data
+
+__My current analysis has merged the original test and training datasets into one dataset, and performed data cleaning to generate a tidy dataset, "Average.txt", that only contains the average of the mean and standard deviation of each movement feature for each subject and activity.__ I wrote the R script "run_analysis.R" to download the original data and perform this analysis. The details of this analysis are explained in ReadMe.md as well as the comments in the run_analysis.R script. 
 
 ### Variable Descriptions in "Average.txt"
 
