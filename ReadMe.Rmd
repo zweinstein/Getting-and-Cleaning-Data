@@ -35,10 +35,15 @@ __The goal of this project is to get and clean the data from the above link, to 
 ### Explanation of run_analysis.R
 
 The script run_analysis.R performs the following:
+
 1. Download the zipped UCI HAR Dataset data set from the link above, and unzip it into the "UCI HAR Dataset" folder under the present working directory. Then it merges the training and the test sets to create one data set (by cbind and rbind functions). At this step, each column of the data is also properly named, i.e. "Subject" for "subject_test.txt" and "subject_train.txt" data, "Activity" for "y_test.txt" and "y_train.txt" data, and the names for different features/measurements (in "X_test.txt" and "X_train.txt") are read from "features.txt".
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement (by grep function).
+
 3. Uses descriptive activity names to name the activities in the data set, based on the information in "activity_labels.txt". 
+
 4. Appropriately labels the data set with descriptive activity names, and converts them into syntactically valid names while retaining the description in the original names for each measurement (by make.names function).
+
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This was done by using the group_by and summarise_each functions in the dplyr package. 
 
 __The tidy dataset is written as "Average.txt" file.__

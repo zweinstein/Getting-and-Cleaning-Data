@@ -10,7 +10,7 @@ output: html_document
 ### License:
 Use of this dataset in publications must be acknowledged by referencing the following publication:
 
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+_Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012_
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
@@ -35,9 +35,9 @@ __This analysis has merged the original test and training datasets into one data
 ### Variable Descriptions in "Average.txt"
 
 Each row of the dataset "Average.txt" contains:
-Column 1: Subject ID
-Column 2. Activity
-Columns 3-68: 66 features of the activity, which are average values of the mean and standard devations in the original data (in both time and frequency domains). _These features are bounded within [-1,1] since the original data have been normalized._ The following table lists the detailed description for each variable:
+* Column 1: Subject ID
+* Column 2. Activity
+* Columns 3-68: 66 features of the activity, which are average values of the mean and standard devations in the original data (in both time and frequency domains). __These features are bounded within [-1,1] since the original data have been normalized.__ The following table lists the detailed description for each variable:
 
 Variable        | Description
 ----------------|-------------
