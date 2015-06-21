@@ -30,7 +30,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-_The goal of this project is to get and clean the data from the above link, to output a tidier dataset that only contain the average of the mean and standard deviation of each movement feature for each subject and activity._
+__The goal of this project is to get and clean the data from the above link, to output a tidier dataset that only contain the average of the mean and standard deviation of each movement feature for each subject and activity.__
 
 ### Explanation of run_analysis.R
 
@@ -41,7 +41,7 @@ The script run_analysis.R performs the following:
 4. Appropriately labels the data set with descriptive activity names, and converts them into syntactically valid names while retaining the description in the original names for each measurement (by make.names function).
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This was done by using the group_by and summarise_each functions in the dplyr package. 
 
-_The tidy dataset is written as "Average.txt" file._
+__The tidy dataset is written as "Average.txt" file.__
 
 
 
