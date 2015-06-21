@@ -1,9 +1,3 @@
----
-title: "CodeBook"
-author: "Zhen Wang"
-date: "June 21, 2015"
-output: html_document
----
 # CodeBook 
 ## Data Collected from the Accelerometers from Samsung Galaxy S Smartphones
 
