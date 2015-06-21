@@ -1,5 +1,6 @@
 # ReadMe
 ## Getting and Cleaning Data Collected from the Accelerometers from Samsung Galaxy S Smartphones 
+
 __This repo is for the course project of "Getting and Cleaning Data" organized by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD, at Johns Hopkins, through Coursera.__
 
 ### Content
@@ -40,7 +41,5 @@ The script run_analysis.R performs the following:
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This was done by using the group_by and summarise_each functions available in the dplyr package. 
 
-__The tidy dataset is written as "Average.txt" file under the working directory.__This data can be read into R by:
-
-read.table("./Average.txt", header = T)
+__The tidy dataset is written as "Average.txt" file under the working directory. This data can be read into R by: read.table("./Average.txt", header = T)__
 
